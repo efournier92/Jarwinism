@@ -1,0 +1,40 @@
+.livestream-toolbar {
+  height: 8%;
+  background-color: #212121;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.stream-container {
+  height: 90%;
+  background-color: #0f0e11;
+}
+
+.stream-video {
+  width: 94%;
+  height: 94%;
+  max-height: 86vh;
+  margin: 1em auto;
+}
+
+.stream-chat {
+  height: 98%;
+}
+
+.disabled-element {
+  background-color:#37474F !important;
+}
+
+.enabled-element {
+  background-color:#c62828 !important;
+}
+
+.sidenav-side {
+  background-color: #0f0e11;
+}
+
+.sidnav-content {
+  overflow: hidden;
+}

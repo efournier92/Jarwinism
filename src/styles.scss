@@ -1,0 +1,23 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$pauly-theme-primary: mat-palette($mat-blue-grey, 800);
+$pauly-theme-accent: mat-palette($mat-green, 500);
+$pauly-theme-warn: mat-palette($mat-green, A400);
+
+$pauly-theme: mat-dark-theme(
+  $pauly-theme-primary,
+  $pauly-theme-accent,
+  $pauly-theme-warn,
+);
+
+html, body {
+  @include angular-material-theme($pauly-theme);
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #0f0e11 !important;
+}
