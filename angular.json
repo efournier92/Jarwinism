@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PaulyDCam": {
+    "Jarwinism": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/PaulyDCam",
+            "outputPath": "dist/Jarwinism",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -55,18 +55,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PaulyDCam:build"
+            "browserTarget": "Jarwinism:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "PaulyDCam:build:production"
+              "browserTarget": "Jarwinism:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PaulyDCam:build"
+            "browserTarget": "Jarwinism:build"
           }
         },
         "test": {
@@ -100,7 +100,7 @@
         }
       }
     },
-    "PaulyDCam-e2e": {
+    "Jarwinism-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -108,11 +108,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "PaulyDCam:serve"
+            "devServerTarget": "Jarwinism:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "PaulyDCam:serve:production"
+              "devServerTarget": "Jarwinism:serve:production"
             }
           }
         },
@@ -128,5 +128,5 @@
       }
     }
   },
-  "defaultProject": "PaulyDCam"
+  "defaultProject": "Jarwinism"
 }

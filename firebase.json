@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/PaulyDCam",
+    "public": "dist/Jarwinism",
     "ignore": [
       "firebase.json",
       "**/.*",
